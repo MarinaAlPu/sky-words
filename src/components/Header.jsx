@@ -3,11 +3,13 @@ export const Header = () => {
     <header className="header">
       <div className="header__logo">SkyWords</div>
       <div className="header__actions">
-        <button style={{ width: 100 }} className="header__button">
-          Сменить тему
-          </button>
-        <button className="header__button">Выйти</button>
-      </div>
-    </header>
+        {/* <button style={{ width: 100 }} className="header__button"> */}
+        {/* Сменить тему
+      </button> */}
+      <Button text="Сменить тему"/>
+      {/* <button className="header__button">Выйти</button> */}
+      <Button text="Выйти"/>
+    </div>
+    </header >
   );
 };
