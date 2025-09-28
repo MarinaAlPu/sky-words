@@ -9,9 +9,13 @@ export const Header = () => {
         {/* <button style={{ width: 100 }} className="header__button"> */}
         {/* Сменить тему
       </button> */}
-      <Button text="Сменить тему"/>
+      {/* <Button text="Сменить тему"/> */}
+      <Button>Сменить тему</Button>
       {/* <button className="header__button">Закрыть</button> */}
-      <Button text="Закрыть"/>
+      {/* используем props */}
+      {/* <Button text="Закрыть"/> */}
+      {/* используем children */}
+      <Button>Выйти</Button>
     </div>
     </header >
   );
