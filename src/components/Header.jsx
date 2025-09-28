@@ -1,3 +1,6 @@
+import { Button } from "./Button";
+
+
 export const Header = () => {
   return (
     <header className="header">
@@ -7,8 +10,8 @@ export const Header = () => {
         {/* Сменить тему
       </button> */}
       <Button text="Сменить тему"/>
-      {/* <button className="header__button">Выйти</button> */}
-      <Button text="Выйти"/>
+      {/* <button className="header__button">Закрыть</button> */}
+      <Button text="Закрыть"/>
     </div>
     </header >
   );
